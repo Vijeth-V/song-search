@@ -1,0 +1,22 @@
+.searchBox{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: darkolivegreen;
+}
+.searchBox input{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 400px;
+    margin-right: 10px;
+}
+.searchBox button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 100px;
+}

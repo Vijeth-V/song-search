@@ -1,0 +1,6 @@
+<div class="container">
+  <div class="card" *ngFor="let song of songs">
+    <img src="{{ song.artworkUrl100 }}" alt="Avatar" style="width: 100%" />
+    <h4 class="listText">{{ song.artistName }}</h4>
+  </div>
+</div>
